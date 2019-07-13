@@ -10,6 +10,7 @@
 		AABC7D0422D9B47B00B06C5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D0322D9B47B00B06C5A /* main.swift */; };
 		AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D0B22D9B4DE00B06C5A /* TwoSum.swift */; };
 		AABC7D1122D9BAE800B06C5A /* AddTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1022D9BAE800B06C5A /* AddTwoNum.swift */; };
+		AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1422D9D47700B06C5A /* RemoveNilValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		AABC7D0D22D9B53100B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		AABC7D1022D9BAE800B06C5A /* AddTwoNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNum.swift; sourceTree = "<group>"; };
 		AABC7D1222D9C19500B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		AABC7D1422D9D47700B06C5A /* RemoveNilValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNilValue.swift; sourceTree = "<group>"; };
+		AABC7D1622D9DF7C00B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 		AABC7D0A22D9B48700B06C5A /* subject */ = {
 			isa = PBXGroup;
 			children = (
+				AABC7D1322D9D45800B06C5A /* RemoveNilValue */,
 				AABC7D0F22D9BACD00B06C5A /* AddTwoNum */,
 				AABC7D0E22D9B88200B06C5A /* TwoSum */,
 			);
@@ -94,6 +98,15 @@
 				AABC7D1222D9C19500B06C5A /* readme.md */,
 			);
 			path = AddTwoNum;
+			sourceTree = "<group>";
+		};
+		AABC7D1322D9D45800B06C5A /* RemoveNilValue */ = {
+			isa = PBXGroup;
+			children = (
+				AABC7D1422D9D47700B06C5A /* RemoveNilValue.swift */,
+				AABC7D1622D9DF7C00B06C5A /* readme.md */,
+			);
+			path = RemoveNilValue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */,
+				AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */,
 				AABC7D0422D9B47B00B06C5A /* main.swift in Sources */,
 				AABC7D1122D9BAE800B06C5A /* AddTwoNum.swift in Sources */,
 			);
