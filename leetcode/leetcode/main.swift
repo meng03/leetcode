@@ -8,6 +8,6 @@
 
 import Foundation
 
-print(removeNilFromDic(dic: dic))
+testSplitRange()
 
 

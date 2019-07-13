@@ -11,6 +11,7 @@
 		AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D0B22D9B4DE00B06C5A /* TwoSum.swift */; };
 		AABC7D1122D9BAE800B06C5A /* AddTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1022D9BAE800B06C5A /* AddTwoNum.swift */; };
 		AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1422D9D47700B06C5A /* RemoveNilValue.swift */; };
+		AABC7D1922D9EA8E00B06C5A /* SplitRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1822D9EA8E00B06C5A /* SplitRange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		AABC7D1222D9C19500B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		AABC7D1422D9D47700B06C5A /* RemoveNilValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNilValue.swift; sourceTree = "<group>"; };
 		AABC7D1622D9DF7C00B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		AABC7D1822D9EA8E00B06C5A /* SplitRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitRange.swift; sourceTree = "<group>"; };
+		AABC7D1A22D9EF1800B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		AABC7D0A22D9B48700B06C5A /* subject */ = {
 			isa = PBXGroup;
 			children = (
+				AABC7D1722D9EA5600B06C5A /* SplitRange */,
 				AABC7D1322D9D45800B06C5A /* RemoveNilValue */,
 				AABC7D0F22D9BACD00B06C5A /* AddTwoNum */,
 				AABC7D0E22D9B88200B06C5A /* TwoSum */,
@@ -107,6 +111,15 @@
 				AABC7D1622D9DF7C00B06C5A /* readme.md */,
 			);
 			path = RemoveNilValue;
+			sourceTree = "<group>";
+		};
+		AABC7D1722D9EA5600B06C5A /* SplitRange */ = {
+			isa = PBXGroup;
+			children = (
+				AABC7D1822D9EA8E00B06C5A /* SplitRange.swift */,
+				AABC7D1A22D9EF1800B06C5A /* readme.md */,
+			);
+			path = SplitRange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABC7D1922D9EA8E00B06C5A /* SplitRange.swift in Sources */,
 				AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */,
 				AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */,
 				AABC7D0422D9B47B00B06C5A /* main.swift in Sources */,
