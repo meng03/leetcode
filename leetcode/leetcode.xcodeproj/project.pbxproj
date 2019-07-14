@@ -12,6 +12,7 @@
 		AABC7D1122D9BAE800B06C5A /* AddTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1022D9BAE800B06C5A /* AddTwoNum.swift */; };
 		AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1422D9D47700B06C5A /* RemoveNilValue.swift */; };
 		AABC7D1922D9EA8E00B06C5A /* SplitRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1822D9EA8E00B06C5A /* SplitRange.swift */; };
+		AABC7D2322DB29BF00B06C5A /* AddTwoSum.c in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D2222DB29BF00B06C5A /* AddTwoSum.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,9 @@
 		AABC7D1622D9DF7C00B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		AABC7D1822D9EA8E00B06C5A /* SplitRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitRange.swift; sourceTree = "<group>"; };
 		AABC7D1A22D9EF1800B06C5A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		AABC7D1C22DB047900B06C5A /* leetcode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "leetcode-Bridging-Header.h"; sourceTree = "<group>"; };
+		AABC7D2122DB29BF00B06C5A /* AddTwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTwoSum.h; sourceTree = "<group>"; };
+		AABC7D2222DB29BF00B06C5A /* AddTwoSum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AddTwoSum.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		AABC7D0222D9B47B00B06C5A /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				AABC7D1C22DB047900B06C5A /* leetcode-Bridging-Header.h */,
 				AABC7D0A22D9B48700B06C5A /* subject */,
 				AABC7D0322D9B47B00B06C5A /* main.swift */,
 			);
@@ -100,6 +105,8 @@
 			children = (
 				AABC7D1022D9BAE800B06C5A /* AddTwoNum.swift */,
 				AABC7D1222D9C19500B06C5A /* readme.md */,
+				AABC7D2122DB29BF00B06C5A /* AddTwoSum.h */,
+				AABC7D2222DB29BF00B06C5A /* AddTwoSum.c */,
 			);
 			path = AddTwoNum;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 				TargetAttributes = {
 					AABC7CFF22D9B47B00B06C5A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -183,6 +191,7 @@
 				AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */,
 				AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */,
 				AABC7D0422D9B47B00B06C5A /* main.swift in Sources */,
+				AABC7D2322DB29BF00B06C5A /* AddTwoSum.c in Sources */,
 				AABC7D1122D9BAE800B06C5A /* AddTwoNum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,9 +317,17 @@
 		AABC7D0822D9B47B00B06C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXT3UM27V4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "leetcode/leetcode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -318,9 +335,16 @@
 		AABC7D0922D9B47B00B06C5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXT3UM27V4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "leetcode/leetcode-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
