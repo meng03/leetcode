@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA9DF5F622E73193003EC647 /* LongestSubString.c in Sources */ = {isa = PBXBuildFile; fileRef = AA9DF5F522E73193003EC647 /* LongestSubString.c */; };
 		AABC7D0422D9B47B00B06C5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D0322D9B47B00B06C5A /* main.swift */; };
 		AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D0B22D9B4DE00B06C5A /* TwoSum.swift */; };
 		AABC7D1122D9BAE800B06C5A /* AddTwoNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D1022D9BAE800B06C5A /* AddTwoNum.swift */; };
@@ -28,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA9DF5F422E73193003EC647 /* LongestSubString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestSubString.h; sourceTree = "<group>"; };
+		AA9DF5F522E73193003EC647 /* LongestSubString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LongestSubString.c; sourceTree = "<group>"; };
+		AA9DF5F722E741C9003EC647 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		AABC7D0022D9B47B00B06C5A /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABC7D0322D9B47B00B06C5A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AABC7D0B22D9B4DE00B06C5A /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -54,6 +58,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA9DF5F322E7316D003EC647 /* LongestSubString */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DF5F422E73193003EC647 /* LongestSubString.h */,
+				AA9DF5F522E73193003EC647 /* LongestSubString.c */,
+				AA9DF5F722E741C9003EC647 /* readme.md */,
+			);
+			path = LongestSubString;
+			sourceTree = "<group>";
+		};
 		AABC7CF722D9B47B00B06C5A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,7 @@
 		AABC7D0A22D9B48700B06C5A /* subject */ = {
 			isa = PBXGroup;
 			children = (
+				AA9DF5F322E7316D003EC647 /* LongestSubString */,
 				AABC7D1722D9EA5600B06C5A /* SplitRange */,
 				AABC7D1322D9D45800B06C5A /* RemoveNilValue */,
 				AABC7D0F22D9BACD00B06C5A /* AddTwoNum */,
@@ -189,6 +204,7 @@
 			files = (
 				AABC7D1922D9EA8E00B06C5A /* SplitRange.swift in Sources */,
 				AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */,
+				AA9DF5F622E73193003EC647 /* LongestSubString.c in Sources */,
 				AABC7D1522D9D47700B06C5A /* RemoveNilValue.swift in Sources */,
 				AABC7D0422D9B47B00B06C5A /* main.swift in Sources */,
 				AABC7D2322DB29BF00B06C5A /* AddTwoSum.c in Sources */,

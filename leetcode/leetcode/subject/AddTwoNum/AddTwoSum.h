@@ -18,6 +18,6 @@ struct ListNode {
 };
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
-void testAddTwoNumbers();
+void testAddTwoNumbers(void);
 
 #endif /* AddTwoSum_h */
