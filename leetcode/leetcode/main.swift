@@ -9,6 +9,7 @@
 import Foundation
 
 //testAddTwoNumbers()
-testRepeated()
+//testRepeated()
+//testLongest()
 
-testLongest()
+testDuplicate()
