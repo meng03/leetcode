@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA6CA5AF2320E58E005007E6 /* ReverseInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = AA6CA5AE2320E58E005007E6 /* ReverseInteger.c */; };
 		AA9DF5F622E73193003EC647 /* LongestSubString.c in Sources */ = {isa = PBXBuildFile; fileRef = AA9DF5F522E73193003EC647 /* LongestSubString.c */; };
 		AABC4A1E231CF00800071AEC /* DuplicatedNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = AABC4A1D231CF00800071AEC /* DuplicatedNumber.c */; };
 		AABC7D0422D9B47B00B06C5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7D0322D9B47B00B06C5A /* main.swift */; };
@@ -30,6 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA6CA5AC2320E523005007E6 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		AA6CA5AD2320E58E005007E6 /* ReverseInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
+		AA6CA5AE2320E58E005007E6 /* ReverseInteger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ReverseInteger.c; sourceTree = "<group>"; };
 		AA9DF5F422E73193003EC647 /* LongestSubString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestSubString.h; sourceTree = "<group>"; };
 		AA9DF5F522E73193003EC647 /* LongestSubString.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LongestSubString.c; sourceTree = "<group>"; };
 		AA9DF5F722E741C9003EC647 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
@@ -62,6 +66,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA6CA5AB2320E4FE005007E6 /* ReverseInteger */ = {
+			isa = PBXGroup;
+			children = (
+				AA6CA5AC2320E523005007E6 /* readme.md */,
+				AA6CA5AD2320E58E005007E6 /* ReverseInteger.h */,
+				AA6CA5AE2320E58E005007E6 /* ReverseInteger.c */,
+			);
+			path = ReverseInteger;
+			sourceTree = "<group>";
+		};
 		AA9DF5F322E7316D003EC647 /* LongestSubString */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +125,7 @@
 		AABC7D0A22D9B48700B06C5A /* subject */ = {
 			isa = PBXGroup;
 			children = (
+				AA6CA5AB2320E4FE005007E6 /* ReverseInteger */,
 				AABC4A1B231CEFC100071AEC /* DuplicatedNumber */,
 				AA9DF5F322E7316D003EC647 /* LongestSubString */,
 				AABC7D1722D9EA5600B06C5A /* SplitRange */,
@@ -217,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6CA5AF2320E58E005007E6 /* ReverseInteger.c in Sources */,
 				AABC7D1922D9EA8E00B06C5A /* SplitRange.swift in Sources */,
 				AABC7D0C22D9B4DE00B06C5A /* TwoSum.swift in Sources */,
 				AA9DF5F622E73193003EC647 /* LongestSubString.c in Sources */,

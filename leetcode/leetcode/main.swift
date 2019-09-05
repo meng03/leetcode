@@ -12,4 +12,5 @@ import Foundation
 //testRepeated()
 //testLongest()
 
-testDuplicate()
+//testDuplicate()
+testReverse()
